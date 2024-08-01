@@ -24,4 +24,8 @@ The k-th principal component of a data vector x(i) can therefore be given as a s
 
 Two major components are calculated in PCA: the first principal component (PC1) and the second principal component (PC2). The first principal component (PC1) is the direction in space along which the data points have the highest or most variance. It is the line that best represents the shape of the projected points
 
+## Limitations of PCA
+
+PCA is a powerful and versatile technique, but it also has some limitations that you should be aware of. For example, PCA is sensitive to the choice of variables and the order of observations, meaning that different selections or arrangements of your data may lead to different results. Therefore, you should always justify your choice of variables and ensure that your data is randomly ordered before applying PCA. Another limitation is that PCA is not robust to missing values, meaning that if your data has gaps or errors, PCA may not work properly or produce inaccurate results. Therefore, you should always handle missing values properly before applying PCA, such as by imputing them, deleting them, or using methods that can deal with them, such as probabilistic PCA or multiple imputation.
+
 
