@@ -20,4 +20,8 @@ Other benefits of PCA include reduction of noise in the data, feature selection 
 
 The k-th principal component of a data vector x(i) can therefore be given as a score tk(i) = x(i) ⋅ w(k) in the transformed coordinates, or as the corresponding vector in the space of the original variables, {x(i) ⋅ w(k)} w(k), where w(k) is the kth eigenvector of XTX.
 
+## What are the components in principal component analysis?
+
+Two major components are calculated in PCA: the first principal component (PC1) and the second principal component (PC2). The first principal component (PC1) is the direction in space along which the data points have the highest or most variance. It is the line that best represents the shape of the projected points
+
 
