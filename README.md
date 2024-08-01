@@ -16,4 +16,8 @@ Principal Component Analysis (PCA) is a statistical procedure that uses an ortho
 
 Other benefits of PCA include reduction of noise in the data, feature selection (to a certain extent), and the ability to produce independent, uncorrelated features of the data. PCA also allows us to visualize data and allow for the inspection of clustering/classification algorithms.
 
+## What is the formula for principal component analysis?
+
+The k-th principal component of a data vector x(i) can therefore be given as a score tk(i) = x(i) ⋅ w(k) in the transformed coordinates, or as the corresponding vector in the space of the original variables, {x(i) ⋅ w(k)} w(k), where w(k) is the kth eigenvector of XTX.
+
 
